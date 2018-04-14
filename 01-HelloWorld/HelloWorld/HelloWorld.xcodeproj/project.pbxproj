@@ -13,6 +13,9 @@
 		84CDF4EF207FC3D7007FB637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CDF4EE207FC3D7007FB637 /* Assets.xcassets */; };
 		84CDF4F2207FC3D7007FB637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDF4F0207FC3D7007FB637 /* LaunchScreen.storyboard */; };
 		84CDF4F5207FC3D7007FB637 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF4F4207FC3D7007FB637 /* main.m */; };
+		84CDF4FF207FC584007FB637 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF4FE207FC584007FB637 /* UserModel.m */; };
+		84CDF502207FC5E0007FB637 /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF501207FC5E0007FB637 /* UserViewModel.m */; };
+		84CDF506207FC61E007FB637 /* UserLb.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF505207FC61E007FB637 /* UserLb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		84CDF4F1207FC3D7007FB637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CDF4F3207FC3D7007FB637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84CDF4F4207FC3D7007FB637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84CDF4FD207FC584007FB637 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		84CDF4FE207FC584007FB637 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		84CDF500207FC5E0007FB637 /* UserViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
+		84CDF501207FC5E0007FB637 /* UserViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
+		84CDF504207FC61E007FB637 /* UserLb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserLb.h; sourceTree = "<group>"; };
+		84CDF505207FC61E007FB637 /* UserLb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserLb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,9 @@
 				84CDF4E6207FC3D6007FB637 /* AppDelegate.m */,
 				84CDF4E8207FC3D6007FB637 /* ViewController.h */,
 				84CDF4E9207FC3D6007FB637 /* ViewController.m */,
+				84CDF503207FC5FD007FB637 /* View */,
+				84CDF4FB207FC560007FB637 /* Model */,
+				84CDF4FC207FC560007FB637 /* ViewModel */,
 				84CDF4EB207FC3D6007FB637 /* Main.storyboard */,
 				84CDF4EE207FC3D7007FB637 /* Assets.xcassets */,
 				84CDF4F0207FC3D7007FB637 /* LaunchScreen.storyboard */,
@@ -69,6 +81,33 @@
 				84CDF4F4207FC3D7007FB637 /* main.m */,
 			);
 			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		84CDF4FB207FC560007FB637 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84CDF4FD207FC584007FB637 /* UserModel.h */,
+				84CDF4FE207FC584007FB637 /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84CDF4FC207FC560007FB637 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84CDF500207FC5E0007FB637 /* UserViewModel.h */,
+				84CDF501207FC5E0007FB637 /* UserViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84CDF503207FC5FD007FB637 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84CDF504207FC61E007FB637 /* UserLb.h */,
+				84CDF505207FC61E007FB637 /* UserLb.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +182,9 @@
 			files = (
 				84CDF4EA207FC3D6007FB637 /* ViewController.m in Sources */,
 				84CDF4F5207FC3D7007FB637 /* main.m in Sources */,
+				84CDF4FF207FC584007FB637 /* UserModel.m in Sources */,
+				84CDF502207FC5E0007FB637 /* UserViewModel.m in Sources */,
+				84CDF506207FC61E007FB637 /* UserLb.m in Sources */,
 				84CDF4E7207FC3D6007FB637 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
